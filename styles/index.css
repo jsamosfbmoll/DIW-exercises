@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
@@ -11,18 +13,20 @@ body {
 
 body div, body header, body footer {
     border-bottom: 1px dashed black;
-    box-sizing: border-box;
 }
+
+/* FIRST PART*/
 
 header {
     display: grid;
-    grid-column: auto auto;
+    grid-template-columns: auto 85%;
+    grid-template-rows: 100%;
     height: 120px;
 }
 
 header div#header-logo {
     background-image: url("../img/logo.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -33,5 +37,8 @@ header div#title {
 }
 
 header div#title h1 {
-    font-size: 26px;
+    font-size: 2em;
 }
+
+/* SECOND PART */
+
