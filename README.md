@@ -40,10 +40,10 @@ Here you have a full size capture of the final result.
       - Horizontal padding of 20px
 
  3. **Pattern**
-    - Use the background-image and the image available in images to create this pattern
+    - Use the background-image and the image available in [images](docs/imatges.zip) to create this pattern
 
  4. **Central image**
-    - Use the image available in images
+    - Use the image available in [images](docs/imatges.zip)
     - The image must have exactly the same proportions and look as in [here](docs/webpage.png) (Use the layout properties we’ve seen in class make it look exactly like that)
 
  5. **The Grades**
