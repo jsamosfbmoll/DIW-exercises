@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 1200px;
+    width: 1050px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,7 +38,32 @@ header div#title {
 
 header div#title h1 {
     font-size: 2em;
+    font-weight: bold;
 }
 
 /* SECOND PART */
 
+div#links {
+    height: 50px;
+}
+
+div#links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#links ul li{
+    display: block;
+    float: left;
+    background-color: #9376AC;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin: 1px;
+}
