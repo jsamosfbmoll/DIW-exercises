@@ -89,3 +89,50 @@ div#central-image img {
     top: -50%;
     position: relative;
 }
+
+/* FIFTH PART */
+
+div#grades {
+    height: 250px;
+    width: 100%;
+    background-color: #DCDCDC;
+    text-align: center;
+    display: grid;
+}
+
+div#grades h1 {
+    font-size: 1.3em;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+div#grades table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    border: 1px black solid;
+    margin-bottom: 20px;
+}
+
+div#grades table thead tr {
+    background-color: #704C8F;
+}
+
+div#grades table thead tr th {
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #704C8F;
+    border-bottom: 4px solid black;
+    border-right: 0px;
+    padding: 5px;
+}
+
+div#grades table tbody tr td {
+    padding: 10px;
+}
+
+div#grades table tbody tr:nth-child(odd) {
+    background-color: #808080;
+}
