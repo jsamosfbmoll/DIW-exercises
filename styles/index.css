@@ -75,3 +75,17 @@ div#pattern {
     height: 100px;
     width: 100%;
 }
+
+/* FOURTH PART */
+
+div#central-image {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+div#central-image img {
+    width: 100%;
+    top: -50%;
+    position: relative;
+}
