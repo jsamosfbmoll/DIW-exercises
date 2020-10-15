@@ -61,9 +61,9 @@ CONTAINER C03
   /********* ADD YOUR CODE  HERE **********/
 
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
 
   /********* END OF YOUR CODE **********/
 }
@@ -103,6 +103,12 @@ CONTAINER C05
   margin:3px;
 }
   /********* ADD YOUR CODE  HERE **********/
+.c05 {
+
+  display: flex;
+  align-items: center;
+
+}
 
   /********* END OF YOUR CODE **********/
 
