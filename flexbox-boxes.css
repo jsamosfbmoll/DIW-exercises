@@ -135,4 +135,20 @@ CONTAINER C06
 }
   /********* ADD YOUR CODE  HERE **********/
 
+.c06 {
+  flex-direction: row;
+}
+
+.c06 div:nth-child(1) {
+  align-self: flex-start;
+}
+
+.c06 div:nth-child(2) {
+  align-self: flex-end;
+}
+
+.c06 div:nth-child(4) {
+  order: -3;
+}
+
   /********* END OF YOUR CODE **********/
