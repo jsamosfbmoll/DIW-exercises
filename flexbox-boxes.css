@@ -110,6 +110,14 @@ CONTAINER C05
 
 }
 
+.c05 div:nth-child(1) {
+  flex-grow: 1;
+}
+
+.c05 div:nth-child(2) {
+  flex-grow: 2;
+}
+
   /********* END OF YOUR CODE **********/
 
 
