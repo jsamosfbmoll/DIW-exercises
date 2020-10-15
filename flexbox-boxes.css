@@ -78,6 +78,9 @@ CONTAINER C04
 .c04 {
   /********* ADD YOUR CODE  HERE **********/
 
+  display: flex;
+  flex-wrap: wrap;
+
   /********* END OF YOUR CODE **********/
 }
 .c04 div {
