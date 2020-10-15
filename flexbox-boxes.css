@@ -42,6 +42,11 @@ CONTAINER C02
 .c02 {
   /********* ADD YOUR CODE  HERE **********/
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   /********* END OF YOUR CODE **********/
   }
   .c02 div {
