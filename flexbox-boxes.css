@@ -60,6 +60,11 @@ CONTAINER C03
 .c03 {
   /********* ADD YOUR CODE  HERE **********/
 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
   /********* END OF YOUR CODE **********/
 }
 .c03 div {
