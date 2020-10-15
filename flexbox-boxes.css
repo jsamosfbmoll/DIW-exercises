@@ -25,6 +25,10 @@ CONTAINER C01
 .c01 {
 /********* ADD YOUR CODE  HERE **********/
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 /********* END OF YOUR CODE **********/
 }
 .c01 div {
