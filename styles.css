@@ -39,23 +39,24 @@ div>h1 {
 header {
     background-color: #9ACD32;
     top: 30px;
-    height: 160px;
+    height: 100px;
+    padding-top: 30px;
 }
 
 header img {
-    top: 50px;
     left: 50px;
 }
 
 header ul {
     list-style: none;
     display: inline-block;
-    top: 50px;
     left: 300px;
+    margin: 0px;
 }
 
 header ul li{
     float: left;
     padding: 5px;
-    margin: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
