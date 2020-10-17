@@ -33,3 +33,29 @@ div>h1 {
     color: white;
     font-size: 2em;
 }
+
+/* Custom */
+
+header {
+    background-color: #9ACD32;
+    top: 30px;
+    height: 160px;
+}
+
+header img {
+    top: 50px;
+    left: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: inline-block;
+    top: 50px;
+    left: 300px;
+}
+
+header ul li{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
