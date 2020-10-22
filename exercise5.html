@@ -14,6 +14,10 @@
         color: #444;
         /***** ADD YOUR CODE HERE *****/
 
+        display: grid;
+        grid-template: repeat(4, 100px)/repeat(4, 100px);
+        grid-gap: 1px;
+
         /*****  END OF YOUR CODE  *****/
       }
 
@@ -33,12 +37,28 @@
 
         /***** ADD YOUR CODE HERE *****/
 
+        grid-area: 2/2/4/4;
+
         /*****  END OF YOUR CODE  *****/
       }
 
       /***** ADD YOUR CODE HERE *****/
 
+      .a {
+        grid-area: 1/1/3/3;
+      }
 
+      .b {
+        grid-area: 1/3/3/5;
+      }
+
+      .c {
+        grid-area: 3/1/5/3;
+      }
+
+      .d {
+        grid-area: 3/3/5/5;
+      }
 
       /*****  END OF YOUR CODE  *****/
     </style>
